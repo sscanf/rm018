@@ -1,0 +1,9 @@
+#include "y:\c6805\headers\705c8a.h" 
+compiler = y:\c6805\C6805.EXE /* compiler used to compile the modules and libraries */
+COMMAND   = +DS
+MAP      = uart       /* create SAMPLE.MAP map file */
+ERROR    = uart       /* create SAMPLE.ERR error file */
+HEX      = uart.S19   /* create SAMPLE.S19 hex dump file */
+LISTING  = uart       /* create SAMPLE.LST listing file */
+OPTION   = v /* add extra debug information to .cod debug file */
+OBJECT   = uart.obj

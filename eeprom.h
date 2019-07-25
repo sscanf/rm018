@@ -1,0 +1,10 @@
+void ee_write(void);
+long ee_read();
+long get_data(void);
+void ee_write_enable(void);
+void ee_erase_all(void);
+void ee_write_all();
+void ee_erase();
+void ee_disable(void);
+void send_data(unsigned long d);
+void t_delay(unsigned long t);
